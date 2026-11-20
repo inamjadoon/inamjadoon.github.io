@@ -55,7 +55,7 @@ export default function Research() {
         ))}
       </ul>
 
-      <div id="project-grid" className="mt-14 mb-6 flex scroll-mt-24 flex-wrap items-center justify-between gap-3">
+      <div id="project-grid" className="mt-10 mb-6 flex scroll-mt-24 flex-wrap items-center justify-between gap-3">
         <p className="font-mono text-xs tracking-wider text-muted uppercase">
           {active ? (
             <>

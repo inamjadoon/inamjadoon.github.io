@@ -16,7 +16,7 @@ export function Section({
 }) {
   const label = sections.find((s) => s.id === id)?.label ?? ''
   return (
-    <section id={id} aria-labelledby={`${id}-title`} className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
+    <section id={id} aria-labelledby={`${id}-title`} className="mx-auto max-w-6xl px-4 py-12 sm:px-6 sm:py-16">
       <Reveal>
         <p className="mb-4 flex items-center gap-3 font-mono text-xs tracking-wider text-accent uppercase">
           <span>{sectionIndex(id)}</span>
@@ -28,7 +28,7 @@ export function Section({
         </h2>
         {intro && <p className="mt-4 max-w-2xl text-muted">{intro}</p>}
       </Reveal>
-      <div className="mt-12">{children}</div>
+      <div className="mt-8 sm:mt-10">{children}</div>
     </section>
   )
 }

@@ -103,7 +103,7 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      <div className="relative mx-auto w-full max-w-6xl px-4 pb-10 sm:px-6">
+      <div className="relative mx-auto w-full max-w-6xl px-4 pb-6 sm:px-6">
         <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-line bg-line sm:grid-cols-4">
           {profile.stats.map((s) => (
             <div key={s.label} className="flex flex-col bg-paper/90 px-4 py-4 backdrop-blur sm:px-5">
