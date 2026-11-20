@@ -89,13 +89,16 @@ export default function Hero() {
           </div>
         </motion.div>
 
-        <motion.p {...rise(0.36)} className="mt-10 inline-flex max-w-full items-center gap-2.5 self-start rounded-full border border-line bg-card/70 px-4 py-2 text-sm backdrop-blur">
-          <span className="relative flex size-2 shrink-0">
-            <span className="absolute inline-flex size-full animate-ping rounded-full bg-accent opacity-60 motion-reduce:hidden" />
-            <span className="relative inline-flex size-2 rounded-full bg-accent" />
-          </span>
-          <span className="text-muted">{profile.openTo}</span>
-        </motion.p>
+        {/* Optional "open to …" pill: shown only when profile.openTo is filled in */}
+        {profile.openTo && (
+          <motion.p {...rise(0.36)} className="mt-10 inline-flex max-w-full items-center gap-2.5 self-start rounded-full border border-line bg-card/70 px-4 py-2 text-sm backdrop-blur">
+            <span className="relative flex size-2 shrink-0">
+              <span className="absolute inline-flex size-full animate-ping rounded-full bg-accent opacity-60 motion-reduce:hidden" />
+              <span className="relative inline-flex size-2 rounded-full bg-accent" />
+            </span>
+            <span className="text-muted">{profile.openTo}</span>
+          </motion.p>
+        )}
         </div>
 
         <motion.div {...rise(0.2)} className="hidden lg:block">

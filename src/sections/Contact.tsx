@@ -13,7 +13,7 @@ export default function Contact() {
   ].filter((l) => l.href)
 
   return (
-    <Section id="contact" title={<>Let's work on something that matters.</>} intro={profile.openTo}>
+    <Section id="contact" title={<>Let's work on something that matters.</>} intro={profile.openTo || undefined}>
       <div className="grid gap-10 lg:grid-cols-[1.3fr_1fr]">
         <Reveal>
           <div className="rounded-2xl border border-line bg-card p-6 sm:p-8">

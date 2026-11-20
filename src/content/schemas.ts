@@ -118,7 +118,7 @@ export const profileSchema = z.object({
   interests: z.array(z.string()),
   /** Life outside work, shown in About */
   offline: z.array(z.string()).default([]),
-  openTo: z.string(),
+  openTo: z.string().default(''),
   email: z.string().email(),
   links: z.object({
     github: url,
