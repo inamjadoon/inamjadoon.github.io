@@ -1,0 +1,32 @@
+[
+  {
+    "id": "ml",
+    "name": "Machine Learning & Data Science",
+    "blurb": "Predictive models, honest evaluation and ML pipelines on messy real-world data."
+  },
+  {
+    "id": "llm",
+    "name": "LLMs, Agents & Trustworthy AI",
+    "blurb": "Grounded, verifiable LLM systems with safety checks and graceful fallbacks."
+  },
+  {
+    "id": "cv",
+    "name": "Computer Vision",
+    "blurb": "Image models for crop disease diagnosis and reading data out of charts."
+  },
+  {
+    "id": "eo",
+    "name": "Remote Sensing & Climate",
+    "blurb": "Satellite data for glacial-lake hazards, crop fires and air quality."
+  },
+  {
+    "id": "web",
+    "name": "Full-Stack & Backend Engineering",
+    "blurb": "Production APIs, dashboards and data platforms that put models in front of users."
+  },
+  {
+    "id": "hw",
+    "name": "Embedded Systems & Hardware",
+    "blurb": "IoT sensing, peripheral simulation and digital IC design in Verilog."
+  }
+]

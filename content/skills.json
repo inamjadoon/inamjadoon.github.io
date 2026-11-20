@@ -1,0 +1,7 @@
+[
+  { "group": "Languages", "items": ["Python", "C / C++", "JavaScript", "TypeScript", "Java", "SQL", "Verilog HDL"] },
+  { "group": "AI & ML", "items": ["PyTorch", "scikit-learn", "LightGBM", "OpenCV", "SHAP", "LLM agents", "RAG", "Google Earth Engine", "Sentinel-2 remote sensing"] },
+  { "group": "Backend & Web", "items": ["FastAPI", "Django", "Node.js", "Express.js", "React", "PostgreSQL", "MongoDB", "Firebase"] },
+  { "group": "Hardware", "items": ["Verilog", "RTL synthesis", "FPGA toolchains", "Timing analysis"] },
+  { "group": "Tools", "items": ["Git", "GitHub", "Docker", "Postman", "Linux", "VS Code", "Google Colab"] }
+]

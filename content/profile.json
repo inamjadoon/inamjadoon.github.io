@@ -1,0 +1,54 @@
+{
+  "name": "Inam Ullah Khan",
+  "shortName": "Inam",
+  "headline": "Computer Scientist · Machine Learning · Full-Stack & Systems",
+  "location": "Abbottabad, Pakistan",
+  "statement": "I build machine-learning systems and the software around them, from satellite and sensor data to LLM agents, production APIs and digital hardware.",
+  "bio": [
+    "I am a Computer Science graduate of COMSATS University Islamabad (CGPA 3.59/4.00). I like problems where a model is only useful once it is wrapped in reliable software and put in front of the people who need it.",
+    "My work spans several fields: predictive modelling and risk simulation (smartEVM), computer vision and IoT for agriculture (AgriBoost), safe and verifiable LLM agents (VeriAgent, ChartVoice), and satellite remote sensing for climate hazards (KaraGLOF, SmogWatch). In industry I have built ML pipelines as an AI intern and production Node.js APIs as a backend intern, and I am now training in digital IC design and verification with Verilog.",
+    "Beyond the lab, I lead community advocacy work, including a case before the Asian Development Bank's Accountability Mechanism, and I spend my free time hiking. Both keep me focused on who technology is actually for."
+  ],
+  "interests": [
+    "Applied Machine Learning",
+    "LLM Agents & Trustworthy AI",
+    "Computer Vision",
+    "Remote Sensing & Climate",
+    "Backend & Data Systems",
+    "Digital Hardware Design"
+  ],
+  "openTo": "Open to MS/PhD research positions, research assistantships and ML / software engineering roles.",
+  "email": "inamjadoon@gmail.com",
+  "links": {
+    "github": "https://github.com/inamjadoon",
+    "linkedin": "https://www.linkedin.com/in/inamjadoon/",
+    "scholar": "",
+    "orcid": "",
+    "transcript": "https://drive.google.com/file/d/1-xvRkN9nNUw9VZZOtXbRbdGXALOpiRGw/view?usp=sharing"
+  },
+  "photo": "/photo.jpg",
+  "cv": "cv.pdf",
+  "stats": [
+    {
+      "value": "3.59",
+      "label": "CGPA / 4.00"
+    },
+    {
+      "value": "3",
+      "label": "industry internships & training"
+    },
+    {
+      "value": "5",
+      "label": "international hackathons & contests"
+    },
+    {
+      "value": "Top 1%",
+      "label": "national merit (PM Laptop Scheme)"
+    }
+  ],
+  "offline": [
+    "Hiking",
+    "Community advocacy",
+    "Organising student tech events"
+  ]
+}
